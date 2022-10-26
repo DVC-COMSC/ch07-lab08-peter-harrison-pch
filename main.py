@@ -10,4 +10,4 @@ for i in range(len(ascending)):
         ascending.insert(i, single)
         break
 
-print(" ", *ascending)
+print(ascending)
