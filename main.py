@@ -3,7 +3,6 @@
 # ******************************
 ascending = input().split()
 ascending = list(map(int, ascending))
-#ascending.sort() 
 
 single = int(input())
 for i in range(len(ascending)):
@@ -11,4 +10,4 @@ for i in range(len(ascending)):
         ascending.insert(i, single)
         break
 
-print(*ascending)
+print(ascending)
